@@ -1,0 +1,54 @@
+package holaMundo;
+
+import java.util.Scanner;
+
+public class grupal1 {
+
+	public static void main(String[] args) {
+
+		/*string rut;
+		string nombres ;
+		string apellidos;
+		int telefono;
+		string afp;
+        int sistemasalud;
+	    string direccion;
+		string comuna ;
+		int edad;*/
+		
+		Scanner pr =new Scanner(System.in);
+		
+		System.out.println("Ingresar Rut");
+        int = pr.nextInt();
+        
+    	System.out.println("Ingresar nombres");
+        String
+        
+        System.out.println("Ingresar apellidos");
+        Scanner nApellidos =new Scanner(System.in);
+        
+        System.out.println("Ingresar telefono");
+        Scanner nTelefono =new Scanner(System.in);
+        
+        System.out.println("Ingresar afp");
+        Scanner nAfp =new Scanner(System.in);
+        
+        System.out.println("Ingresar sistema de salud");
+        Scanner nSistemasalud =new Scanner(System.in);
+        
+        System.out.println("Ingresar direccion");
+        Scanner nDireccion =new Scanner(System.in);
+        
+        System.out.println("Ingresar comuna");
+        Scanner nComuna =new Scanner(System.in);
+        
+        System.out.println("Ingresar edad");
+        Scanner nEdad =new Scanner(System.in);
+        
+       
+		
+		System.out.println("hola,'nombres+"+"tu rut es:"+rut+" tienes :",)
+		
+	}
+
+}
