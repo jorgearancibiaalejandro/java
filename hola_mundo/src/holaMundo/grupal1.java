@@ -6,7 +6,7 @@ public class grupal1 {
 	public static void main(String[] args) {
 
 		/*Scanner pr=new Scanner(System.in)*/
-				;
+				
 		/*string rut;
 		string nombres ;
 		string apellidos;
@@ -19,8 +19,8 @@ public class grupal1 {
 		
 		Scanner pr =new Scanner(System.in);
 		
-		System.out.println("Ingresar Rut");
-        int Rut = pr.nextInt();
+		System.out.println("Ingresar Rut"); 
+        int rut = pr.nextInt();
         
         pr.nextLine();
         
@@ -31,7 +31,7 @@ public class grupal1 {
         String Apellidos =pr.nextLine();
         
         System.out.println("Ingresar telefono");
-        int Telefono =pr.nextInt();
+        int telefono =pr.nextInt();
         
         pr.nextLine();
         
@@ -46,7 +46,7 @@ public class grupal1 {
         }
         
         System.out.println("Ingresar direccion");
-        String direccion=sc.nextLine();
+        String direccion=pr.nextLine();
         
         pr.nextLine();
         
@@ -54,7 +54,7 @@ public class grupal1 {
         String comuna = pr.nextLine();
         
         System.out.println("Ingresar edad");
-        int edad = pr.nextLine();
+        int edad = pr.nextInt();
         
         pr.nextLine();
         
@@ -65,9 +65,9 @@ public class grupal1 {
         
        
 		
-		System.out.println("hola," + nombres + ".+ tu rut es " + rut + " y tu  telefono es " + telefono + ".");
+		System.out.println("hola" + nombres + "+ tu rut es " + rut + " y tu  telefono es " + telefono );
 	    System.out.println("vives en la direccion "+direccion+" en la comuna "+comuna );
-		System.out.println("tu afp es "+afp+" + " y tu sistema de salud es  "+SistemaSalud);
+		System.out.println("tu afp es "+afp+" y tu sistema de salud es " + SistemaSalud);
 	}
 
 }
